@@ -7,7 +7,7 @@ const addPointToBreadcrumbMap = function (breadcrumbs) {
   separator.innerHTML = "»";
   let breadcrumbButton = document.createElement("a");
   breadcrumbButton.innerHTML = "Main";
-  breadcrumbButton.href = "/";
+  breadcrumbButton.href = "../index.html";
   container.appendChild(breadcrumbButton);
   container.appendChild(separator);
 
