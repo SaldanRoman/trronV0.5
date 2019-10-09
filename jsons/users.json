@@ -1,0 +1,49 @@
+[{
+  "name": "skotynyakataka",
+  "password": "skotynyaka_taka",
+  "avatarUrl": "../img/users/skotynyaka.jpg",
+  "subscribed": [{
+    "categorie": "Wine Storage ",
+    "url": "blog.html?Wine Storage"
+  }],
+  "registered": {
+    "year": 2019,
+    "month": 10,
+    "day": 6
+  },
+  "story": [],
+  "wishList": [],
+  "orders": []
+}, {
+  "name": "coolbaba",
+  "password": "cool_baba",
+  "avatarUrl": "../img/users/coolbaba.jpg",
+  "subscribed": [{
+    "categorie": "Wine Storage ",
+    "url": "blog.html?Wine Storage"
+  }],
+  "registered": {
+    "year": 2019,
+    "month": 7,
+    "day": 6
+  },
+  "story": [],
+  "wishList": [],
+  "orders": []
+}, {
+  "name": "coolskotynyaka",
+  "password": "coolskotynyaka",
+  "avatarUrl": "../img/users/coolskotynyaka.jpg",
+  "subscribed": [{
+    "categorie": "Wine Storage ",
+    "url": "blog.html?Wine Storage"
+  }],
+  "registered": {
+    "year": 2019,
+    "month": 9,
+    "day": 6
+  },
+  "story": [],
+  "wishList": [],
+  "orders": []
+}]

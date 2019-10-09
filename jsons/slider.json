@@ -1,0 +1,33 @@
+[{
+    "imgSrc": "img/slider/1.jpg",
+    "title": "Sassicaia",
+    "subtitle": "Wine and not only",
+    "description": "Perhaps the most famous Italian drinks",
+    "buttonUrl": "https://winebutik.com.ua/drinks/category/wines/brand/sassicaia",
+    "buttonColor": "slider-content-text-link--red",
+    "position": "slider-content-text--center"
+},{
+    "imgSrc": "img/slider/2.jpg",
+    "title": "Macallan Whiskey",
+    "subtitle": "Bright shades of tradition",
+    "description": "Best Anniversary Gift",
+    "buttonUrl": "https://winebutik.com.ua/drinks/category/whiskey/brand/macallan",
+    "buttonColor": "slider-content-text-link--red",
+    "position": "slider-content-text--center"
+},{
+    "imgSrc": "img/slider/3.jpg",
+    "title": "Crystal decanters",
+    "subtitle": "Riedel",
+    "description": "More than a carafe for wine",
+    "buttonUrl": "https://winebutik.com.ua/brand/riedel",
+    "buttonColor": "slider-content-text-link--blue",
+    "position": "slider-content-text--right"
+},{
+    "imgSrc": "img/slider/4.jpg",
+    "title": "Provetto",
+    "subtitle": "Provetto Spumante Bianco Brut",
+    "description": "Deep and rich taste",
+    "buttonUrl": "https://winebutik.com.ua/drinks/category/wines/brand/sassicaia",
+    "buttonColor": "slider-content-text-link--blue",
+    "position": "slider-content-text--right"
+}]
