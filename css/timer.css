@@ -1,0 +1,35 @@
+.timer {
+  padding: 25px 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.timer-content {
+  width: 53px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px;
+  box-sizing: border-box;
+}
+
+.timer-content-data-wrapper {
+  margin: 5px;
+  background-color: #0164c9;
+  color: #fff;
+  font-size: 1.14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 39px;
+  height: 36px;
+  transition: ease-out .4s;
+}
+
+.timer-content-text {
+  color: #333333;
+  text-align: center;
+}

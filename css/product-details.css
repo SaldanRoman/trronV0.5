@@ -1,0 +1,236 @@
+.product-details-container {
+  margin: 40px 0;
+  border: 1px;
+  border-style: solid;
+  border-color: #dfdfdf;
+  display: flex;
+  cursor: default;
+}
+
+.product-details-container a {
+  cursor: pointer;
+}
+
+.product-details-container a:hover {
+  color: #ffb65e;
+}
+
+.details-button {
+  text-transform: uppercase;
+  padding: 10px 20px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: #dfdfdf;
+}
+
+.product-details-value {
+  display: flex;
+  padding: 40px 20px;
+  color: #888;
+  width: 100%;
+  border-width: 0 0 0 1px;
+  border-style: solid;
+  border-color: #dfdfdf;
+}
+
+.product-details-value--row--video {
+  margin: auto;
+  width: 100%;
+  height: 600px;
+}
+
+.details-notes--italic {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.details-notes--margin {
+  margin-bottom: 10px;
+}
+
+.product-details-value--row--none {
+  display: none;
+}
+
+.product-details-value--row--сomments {
+  flex-direction: column;
+  width: 100%;
+}
+
+.product-details-comment-container {
+  padding: 20px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #dfdfdf;
+  margin-bottom: 10px;
+}
+
+.product-details-comment-name {
+  display: inline;
+  color: #000;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.product-details-comment-time {
+  display: inline;
+  padding-left: 20px;
+}
+
+.product-details-comment-value {
+  font-style: italic;
+  padding: 10px 0;
+  height: 100px;
+}
+
+.product-details-comment--new {
+  margin: 20px 0 0 0;
+}
+
+.product-details-comment-save {
+  color: #fff;
+  background-color: #fca53c;
+  width: 50px;
+  text-align: center;
+  margin: 20px 0 40px 0;
+  padding: 10px 40px;
+  border-radius: 20px;
+}
+
+.product-details-comment-save:hover {
+  background-color: #3333fa;
+}
+
+.product-details-comment-input--row {
+  width: 500px;
+  height: 200px;
+  border-color: #dac9c9;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  color: #aaa;
+  outline: none;
+}
+
+.product-details-comment-input--column {
+  width: 100%;
+  height: 200px;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 0;
+  color: #aaa;
+  outline: none;
+}
+
+.product-details-comment--new p {
+  padding: 10px 0;
+  margin: 0px;
+  color: #3e3e3e;
+  font-weight: bold;
+}
+
+.product-details-comment--new p span {
+  color: #888;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 1000px) {
+  .product-details-value--row--video {
+    margin: auto;
+    width: 100%;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .product-details-value--row--video {
+    margin: auto;
+    width: 100%;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .details-button-active--row {
+    background-color: #ffb65e;
+    color: #fff;
+  }
+
+  .product-details-value--column {
+    display: none;
+  }
+
+  .product-details {
+    height: 400px;
+    width: 200px;
+  }
+
+  .details-button:hover {
+    background-color: #ffb65e;
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .product-details-value--column--none {
+    display: none;
+  }
+
+  .product-details-comment-container {
+    margin: 10px 0;
+  }
+
+  .product-details-value--column {
+    text-align: justify;
+    color: #888;
+    padding: 10px 0;
+    font-weight: bold;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #dfdfdf;
+  }
+
+  .product-details-value {
+    display: none;
+  }
+
+  .details-button {
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #dfdfdf;
+    margin-bottom: 10px;
+  }
+
+  .details-button-active--column {
+    background-color: #fff;
+    color: #ffb65e;
+  }
+
+  .product-details {
+    width: 100%;
+    padding: 20px 10px 30px 10px;
+  }
+  .product-details-value--column--video {
+    margin: auto;
+    width: 100%;
+    height: 315px;
+  }
+
+  .product-details-comment--new {
+    margin: 10px 0 0 0;
+    padding: 20px 0 0 0;
+    font-weight: bold;
+    border-width: 1px 0 0 0;
+    border-style: solid;
+    border-color: #dfdfdf;
+  }
+}
