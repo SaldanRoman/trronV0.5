@@ -1,0 +1,60 @@
+@import "css/benefits.css";
+@import "css/slider.css";
+@import "css/footer.css";
+@import "css/product-page.css";
+@import "css/articles.css";
+@import "css/header.css";
+@import "css/payment-deliver-guaranties.css";
+@import "css/article.css";
+@import "css/blog.css";
+@import "css/timer.css";
+@import "css/product-details.css";
+@import "css/login.css";
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("assets/fonts/opensans.ttf") format("truetype"),
+    url("assets/fonts/opensans.woff") format("woff");
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: OpenSans, Arial, sans-serif;
+}
+
+.content-width {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 10px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.breadcrumb--none {
+  display: none;
+}
+
+.breadcrumb {
+  padding: 20px 0;
+  cursor: default;
+}
+
+.breadcrumb span {
+  margin: 0 5px;
+}
+
+.breadcrumb a {
+  text-transform: capitalize;
+}
+
+.breadcrumb a:hover {
+  color: #fca53c;
+}
